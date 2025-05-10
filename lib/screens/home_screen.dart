@@ -10,10 +10,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Mi TCG App'),
       ),
-      body: const Center(
-        child: Text(
-          '¡Bienvenido a tu primera pantalla!',
-          style: TextStyle(fontSize: 18),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () => Navigator.pushNamed(context, '/cards'),
+          child: const Text('Ver Catálogo de Cartas'),
         ),
       ),
     );
