@@ -11,15 +11,25 @@ class _CartaWidget extends StatelessWidget {
     return Card(
       elevation: 6,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(8),
       ),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(8),
         child: Image.asset(
           card.imageAsset,
-          fit: BoxFit.cover,           // LLENA todo el box
-          width: double.infinity,      // Ocupa todo el ancho posible
-          height: double.infinity,     // Ocupa todo el alto posible
+          fit: BoxFit.cover,
+          width: double.infinity,
+          height: double.infinity,
+          // Aquí está la magia:
+          errorBuilder: (context, error, stackTrace) {
+            // Puedes poner aquí un asset genérico
+            return Image.asset(
+              'assets/images/placeholder.png',
+              fit: BoxFit.cover,
+              width: double.infinity,
+              height: double.infinity,
+            );
+          },
         ),
       ),
     );

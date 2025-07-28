@@ -64,6 +64,8 @@ flutter:
   assets:
     - assets/cards.json
     - assets/images/
+    - assets/images/core/
+    - assets/images/relatos_de_helenica_laberinto_del_minotauro/
 
   # assets:
   #   - images/a_dot_burr.jpeg

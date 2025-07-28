@@ -1,26 +1,79 @@
 [
   {
-    "id": "c1",
-    "name": "Minotauro"
+    "id": "oceano",
+    "name": "Oceano",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 4,
+    "coste": 5,
+    "isRework": false,
+    "reworkOf": null
   },
   {
-    "id": "c2",
-    "name": "Rey Amarillo"  
+    "id": "rey_de_amarillo",
+    "name": "Rey de Amarillo",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 3,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
   },
   {
-    "id": "c3",
-    "name": "El Gran Zeus"  
+    "id": "el_gran_zeus",
+    "name": "El Gran Zeus",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "olimpico",
+    "fuerza": 5,
+    "coste": 5,
+    "isRework": false,
+    "reworkOf": null
   },
   {
-    "id": "c4",
-    "name": "Atenea"  
+    "id": "atenea",
+    "name": "Atenea",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "olimpico",
+    "fuerza": 2,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
   },
   {
-    "id": "c5",
-    "name": "Gaia"  
-  },  
+    "id": "gaia",
+    "name": "gaia",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "olimpico",
+    "fuerza": 2,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
   {
-    "id": "c6",
-    "name": "Julio Cesar"  
+    "id": "julio_cesar",
+    "name": "Julio Cesar",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "Heroe",
+    "fuerza": 2,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "oceano_rework",
+    "name": "Oceano",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 4,
+    "coste": 5,
+    "isRework": true,
+    "reworkOf": "oceano"
   }
 ]
