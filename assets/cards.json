@@ -75,5 +75,137 @@
     "coste": 5,
     "isRework": true,
     "reworkOf": "oceano"
+  },
+  {
+    "id": "arae",
+    "name": "arae",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "bosque_de_muerte",
+    "name": "Bosque de Muerte",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 1,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "cerda_de_cromion",
+    "name": "Cerda de Cromion",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 3,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "condenados_al_tartaro",
+    "name": "Condenados al Tartaro",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "laberinto_de_creta",
+    "name": "Laberinto de Creta",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "maza_de_bronce",
+    "name": "Maza de Bronce",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "arma",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "minotauro",
+    "name": "minotauro",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 1,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "perifetes",
+    "name": "perifetes",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 3,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "procustes",
+    "name": "procustes",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "sinis",
+    "name": "sinis",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "tortuga_de_hades",
+    "name": "Tortuga de Hades",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 3,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "tributo_sangriento",
+    "name": "Tributo Sangriento",   
+    "edition": "relatos_de_helenica_laberinto_del_minotauro",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
   }
 ]

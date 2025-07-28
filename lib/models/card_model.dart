@@ -4,7 +4,7 @@ class CardModel {
   final String name;
   final String edition;
   final String type;
-  final String race;
+  final String? race;        
   final int fuerza;
   final int coste;
   final bool isRework;
@@ -15,7 +15,7 @@ class CardModel {
     required this.name,
     required this.edition,
     required this.type,
-    required this.race,
+    this.race,               
     required this.fuerza,
     required this.coste,
     required this.isRework,
@@ -34,7 +34,6 @@ class CardModel {
         reworkOf: json['reworkOf'],
       );
 
-  // Getter para el path de la imagen
   String get imageAsset {
     final formattedName = name.toLowerCase().replaceAll(' ', '_');
     return 'assets/images/$edition/$formattedName.png';
