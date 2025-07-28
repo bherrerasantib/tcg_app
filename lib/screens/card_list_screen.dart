@@ -127,32 +127,14 @@ class _CardListScreenState extends State<CardListScreen> {
               Expanded(
                 child: _filteredCards.isEmpty
                     ? const Center(child: Text('No hay cartas que coincidan'))
-                    : _filteredCards.length < 3
-                        ? Center(
-                            child: SizedBox(
-                              width: 220, // Ajusta para el tamaño de tus cartas
-                              child: GridView.builder(
-                                shrinkWrap: true,
-                                physics: const NeverScrollableScrollPhysics(),
-                                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                                  crossAxisCount: 1,
-                                  childAspectRatio: 0.75,
-                                  crossAxisSpacing: 16,
-                                  mainAxisSpacing: 16,
-                                ),
-                                itemCount: _filteredCards.length,
-                                itemBuilder: (context, i) {
-                                  final card = _filteredCards[i];
-                                  return _CartaWidget(card: card);
-                                },
-                              ),
-                            ),
-                          )
-                        : GridView.builder(
+                    : Center(
+                        child: ConstrainedBox(
+                          constraints: const BoxConstraints(maxWidth: 1200), // Ajusta a tu gusto
+                          child: GridView.builder(
                             padding: const EdgeInsets.all(12),
                             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 2,
-                              childAspectRatio: 0.75,
+                              crossAxisCount: 6,           // Hasta 6 cartas por fila
+                              childAspectRatio: 0.7,
                               crossAxisSpacing: 16,
                               mainAxisSpacing: 16,
                             ),
@@ -162,6 +144,8 @@ class _CardListScreenState extends State<CardListScreen> {
                               return _CartaWidget(card: card);
                             },
                           ),
+                        ),
+                      ),
               ),
             ],
           );
