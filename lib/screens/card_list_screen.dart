@@ -13,53 +13,13 @@ class _CartaWidget extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(18),
       ),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(18),
-          gradient: LinearGradient(
-            colors: [Colors.deepPurple.shade50, Colors.deepPurple.shade100],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withAlpha(40), // sombra más natural
-              blurRadius: 6,
-              offset: const Offset(0, 2),
-            ),
-          ],
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 12, left: 8, right: 8),
-              child: SizedBox(
-                height: 100,
-                child: ClipRRect(
-                  borderRadius: const BorderRadius.vertical(top: Radius.circular(18)),
-                  child: Image.asset(
-                    card.imageAsset,
-                    fit: BoxFit.contain,
-                  ),
-                ),
-              ),
-            ),
-            const SizedBox(height: 10),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8),
-              child: Text(
-                card.name,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 15,
-                  color: Colors.deepPurple,
-                ),
-              ),
-            ),
-            const SizedBox(height: 12),
-          ],
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(18),
+        child: Image.asset(
+          card.imageAsset,
+          fit: BoxFit.cover,           // LLENA todo el box
+          width: double.infinity,      // Ocupa todo el ancho posible
+          height: double.infinity,     // Ocupa todo el alto posible
         ),
       ),
     );
