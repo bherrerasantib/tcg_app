@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:tcg_app/models/card_model.dart';
 import 'package:tcg_app/services/card_service.dart';
+import 'package:tcg_app/screens/card_detail_viewer.dart';
 
 class _CartaWidget extends StatelessWidget {
   final CardModel card;
@@ -109,11 +110,24 @@ class _CardListScreenState extends State<CardListScreen> {
                               mainAxisSpacing: 16,
                             ),
                             itemCount: _filteredCards.length,
-                            itemBuilder: (context, i) {
-                              final card = _filteredCards[i];
-                              return _CartaWidget(card: card);
-                            },
-                          ),
+                          itemBuilder: (context, i) {
+                            final card = _filteredCards[i];
+                            return GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (_) => CardDetailViewer(
+                                      cards: _filteredCards,
+                                      initialIndex: i,
+                                    ),
+                                  ),
+                                );
+                              },
+                              child: _CartaWidget(card: card),
+                            );
+                          },
+                                                    ),
                         ),
                       ),
               ),
