@@ -1,12 +1,14 @@
 [
   {
     "id": "c1",
-    "name": "Minotauro",
-    "imageAsset": "assets/images/minotauro.png"
+    "name": "Minotauro"
   },
   {
     "id": "c2",
-    "name": "Rey Amarillo",
-    "imageAsset": "assets/images/rey_amarillo.png"
+    "name": "Rey Amarillo"  
+  },
+  {
+    "id": "c3",
+    "name": "El Gran Zeus"  
   }
 ]
