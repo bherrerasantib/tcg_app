@@ -77,59 +77,73 @@ class _CardListScreenState extends State<CardListScreen> {
           if (snapshot.connectionState != ConnectionState.done) {
             return const Center(child: CircularProgressIndicator());
           }
-          // Se usa _filteredCards para mostrar resultados
-          return Column(
+          return Stack(
             children: [
-              Padding(
-                padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-                child: TextField(
-                  onChanged: _filterCards,
-                  decoration: InputDecoration(
-                    hintText: 'Buscar carta...',
-                    prefixIcon: const Icon(Icons.search),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(28),
-                    ),
-                    fillColor: Colors.white.withAlpha((0.9 * 255).toInt()),
-                    filled: true,
+              // Fondo de imagen con opacidad
+              Positioned.fill(
+                child: Opacity(
+                  opacity: 0.25, // Cambia este valor según lo transparente que lo quieras
+                  child: Image.asset(
+                    'assets/images/back.png',
+                    fit: BoxFit.cover,
                   ),
                 ),
               ),
-              Expanded(
-                child: _filteredCards.isEmpty
-                    ? const Center(child: Text('No hay cartas que coincidan'))
-                    : Center(
-                        child: ConstrainedBox(
-                          constraints: const BoxConstraints(maxWidth: 1200), // Ajusta a tu gusto
-                          child: GridView.builder(
-                            padding: const EdgeInsets.all(12),
-                            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 6,           // Hasta 6 cartas por fila
-                              childAspectRatio: 0.7,
-                              crossAxisSpacing: 16,
-                              mainAxisSpacing: 16,
-                            ),
-                            itemCount: _filteredCards.length,
-                          itemBuilder: (context, i) {
-                            final card = _filteredCards[i];
-                            return GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (_) => CardDetailViewer(
-                                      cards: _filteredCards,
-                                      initialIndex: i,
-                                    ),
-                                  ),
-                                );
-                              },
-                              child: _CartaWidget(card: card),
-                            );
-                          },
-                                                    ),
+              // Todo el contenido encima
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+                    child: TextField(
+                      onChanged: _filterCards,
+                      decoration: InputDecoration(
+                        hintText: 'Buscar carta...',
+                        prefixIcon: const Icon(Icons.search),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(28),
                         ),
+                        fillColor: Colors.white.withAlpha((0.9 * 255).toInt()),
+                        filled: true,
                       ),
+                    ),
+                  ),
+                  Expanded(
+                    child: _filteredCards.isEmpty
+                        ? const Center(child: Text('No hay cartas que coincidan'))
+                        : Center(
+                            child: ConstrainedBox(
+                              constraints: const BoxConstraints(maxWidth: 1200),
+                              child: GridView.builder(
+                                padding: const EdgeInsets.all(12),
+                                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                                  crossAxisCount: 6,
+                                  childAspectRatio: 0.7,
+                                  crossAxisSpacing: 16,
+                                  mainAxisSpacing: 16,
+                                ),
+                                itemCount: _filteredCards.length,
+                                itemBuilder: (context, i) {
+                                  final card = _filteredCards[i];
+                                  return GestureDetector(
+                                    onTap: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (_) => CardDetailViewer(
+                                            cards: _filteredCards,
+                                            initialIndex: i,
+                                          ),
+                                        ),
+                                      );
+                                    },
+                                    child: _CartaWidget(card: card),
+                                  );
+                                },
+                              ),
+                            ),
+                          ),
+                  ),
+                ],
               ),
             ],
           );
