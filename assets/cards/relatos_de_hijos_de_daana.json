@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ANIVERSARIO-HD-388",
+    "name": "Voz de la Tierra",
+    "edition": "relatos_de_hijos_de_daana",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-389",
+    "name": "Sidhes del Bosque",
+    "edition": "relatos_de_hijos_de_daana",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 5,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-390",
+    "name": "Luz Esmeralda",
+    "edition": "relatos_de_hijos_de_daana",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 1,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-391",
+    "name": "Cuatro Aceros",
+    "edition": "relatos_de_hijos_de_daana",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-392",
+    "name": "Daldriada",
+    "edition": "relatos_de_hijos_de_daana",
+    "type": "totem",
+    "race": null,
+    "fuerza": 0,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-393",
+    "name": "Gran Espada",
+    "edition": "relatos_de_hijos_de_daana",
+    "type": "arma",
+    "race": null,
+    "fuerza": 0,
+    "coste": 3,
+    "isRework": true,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-400",
+    "name": "Despertar",
+    "edition": "relatos_de_hijos_de_daana",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 1,
+    "isRework": true,
+    "reworkOf": null
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "AHDX-25",
+    "name": "Crom Cruach",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 3,
+    "coste": 1,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-26",
+    "name": "Crom Dubh",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 3,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-27",
+    "name": "Dullahan",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-28",
+    "name": "Crom Rhogog",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 4,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-29",
+    "name": "Dearg Due",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 2,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-30",
+    "name": "Caorthannach",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 3,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-31",
+    "name": "Levantar a los Muertos",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 4,
+    "isRework": true,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-32",
+    "name": "Llamarada Impia",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 6,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-33",
+    "name": "Canto Banshee",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 1,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-34",
+    "name": "Latigo Dullahan",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "arma",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-35",
+    "name": "Nido de Pestes",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "totem",
+    "race": null,
+    "fuerza": 0,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-36",
+    "name": "Joya Amatista",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "oro",
+    "race": null,
+    "fuerza": 0,
+    "coste": 0,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-398",
+    "name": "Demonio de Tara",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 4,
+    "coste": 4,
+    "isRework": true,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-399",
+    "name": "Orcos",
+    "edition": "relatos_de_hijos_de_daana_necromancia",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": true,
+    "reworkOf": null
+  }
+]

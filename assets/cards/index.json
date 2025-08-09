@@ -17,6 +17,24 @@
       "name": "Relatos de Hijo de Daana la Muerte de Cuchulain",
       "file": "assets/cards/relatos_de_hijos_de_daana_la_muerte_de_cuchulain.json",
       "enabled": true
+    },
+    {
+      "id": "relatos_de_hijos_de_daana_necromancia",
+      "name": "Relatos de Hijos de Daana Necromancia",
+      "file": "assets/cards/relatos_de_hijos_de_daana_necromancia.json",
+      "enabled": true
+    },
+    {
+      "id": "relatos_de_hijos_de_daana_luz_esmeralda",
+      "name": "Relatos de Hijos de Daana Luz Esmeralda",
+      "file": "assets/cards/relatos_de_hijos_de_daana_luz_esmeralda.json",
+      "enabled": true
+    },
+    {
+      "id": "relatos_de_hijos_de_daana",
+      "name": "Relatos de Hijos de Daana",
+      "file": "assets/cards/relatos_de_hijos_de_daana.json",
+      "enabled": true
     }
   ]
 }

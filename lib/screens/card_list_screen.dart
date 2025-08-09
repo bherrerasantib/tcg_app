@@ -1,10 +1,8 @@
 // lib/screens/card_list_screen.dart
-// lib/screens/card_list_screen.dart
 import 'package:flutter/material.dart';
 import 'package:tcg_app/models/card_model.dart';
 import 'package:tcg_app/services/card_service.dart';
 import 'package:tcg_app/screens/card_detail_viewer.dart';
-import 'package:flutter/foundation.dart'; 
 
 class _CartaWidget extends StatelessWidget {
   final CardModel card;
@@ -17,44 +15,20 @@ class _CartaWidget extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(8),
-        child: Stack(
-          children: [
-            Image.asset(
-              card.imageAsset,
+        child: Image.asset(
+          card.imageAsset,
+          fit: BoxFit.cover,
+          width: double.infinity,
+          height: double.infinity,
+          errorBuilder: (context, error, stackTrace) {
+            // Sin prints ni badge: solo placeholder
+            return Image.asset(
+              'assets/images/placeholder.png',
               fit: BoxFit.cover,
               width: double.infinity,
               height: double.infinity,
-              errorBuilder: (context, error, stackTrace) {
-                if (kDebugMode) {
-                  debugPrint('❌ No se pudo cargar: ${card.imageAsset} — $error');
-                }
-                return Image.asset(
-                  'assets/images/placeholder.png',
-                  fit: BoxFit.cover,
-                  width: double.infinity,
-                  height: double.infinity,
-                );
-              },
-            ),
-            // Badge con el path solo en debug
-            if (kDebugMode)
-              Positioned(
-                left: 4,
-                bottom: 4,
-                child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-                  decoration: BoxDecoration(
-                    color: Colors.black54,
-                    borderRadius: BorderRadius.circular(4),
-                  ),
-                  child: Text(
-                    card.imageAsset,
-                    style: const TextStyle(fontSize: 10, color: Colors.white),
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ),
-              ),
-          ],
+            );
+          },
         ),
       ),
     );

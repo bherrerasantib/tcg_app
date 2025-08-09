@@ -1,0 +1,156 @@
+[
+  {
+    "id": "AHDX-13",
+    "name": "Brigit",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 1,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-14",
+    "name": "Morrigu",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-15",
+    "name": "Badb",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 3,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-16",
+    "name": "Nemain",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-17",
+    "name": "Bodb Derg",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 2,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-18",
+    "name": "Matronas Sagradas",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 1,
+    "coste": 1,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-19",
+    "name": "Red de Plata",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": true,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-20",
+    "name": "Poema de Guerra",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-21",
+    "name": "Cuervos del Destino",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 1,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-22",
+    "name": "Lanza del Cuervo",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "arma",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-23",
+    "name": "Navan",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "totem",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-24",
+    "name": "La Llama de Brigit",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "oro",
+    "race": null,
+    "fuerza": 0,
+    "coste": 0,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-396",
+    "name": "Cerridwen",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": true,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-397",
+    "name": "Nuada Brazo de Plata",
+    "edition": "relatos_de_hijos_de_daana_luz_esmeralda",
+    "type": "aliado",
+    "race": "desafiante",
+    "fuerza": 5,
+    "coste": 3,
+    "isRework": true,
+    "reworkOf": null
+  }
+]
