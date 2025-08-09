@@ -1,0 +1,69 @@
+[
+  {
+    "id": "oceano",
+    "name": "Oceano",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "titan",
+    "fuerza": 4,
+    "coste": 5,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "rey_de_amarillo",
+    "name": "Rey de Amarillo",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "sombra",
+    "fuerza": 3,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "el_gran_zeus",
+    "name": "El Gran Zeus",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "olimpico",
+    "fuerza": 5,
+    "coste": 5,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "atenea",
+    "name": "Atenea",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "olimpico",
+    "fuerza": 2,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "gaia",
+    "name": "Gaia",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "olimpico",
+    "fuerza": 2,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "julio_cesar",
+    "name": "Julio Cesar",   
+    "edition": "core",
+    "type": "aliado",
+    "race": "Heroe",
+    "fuerza": 2,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  }
+  
+]

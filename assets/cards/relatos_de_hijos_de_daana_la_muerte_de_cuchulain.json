@@ -1,0 +1,156 @@
+[
+  {
+    "id": "AHDX-01",
+    "name": "Cuchulain",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 2,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-02",
+    "name": "Laeg",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-03",
+    "name": "Lugaid Mac Con Roi",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 2,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-04",
+    "name": "Erc",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 4,
+    "coste": 4,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-05",
+    "name": "Medb",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 1,
+    "coste": 3,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-06",
+    "name": "Achall",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 2,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-07",
+    "name": "Morir de Pie",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 1,
+    "isRework": true,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-08",
+    "name": "Ultimas Fuerzas",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-09",
+    "name": "Venganza de Conall",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-10",
+    "name": "Muerte del Principe",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "talisman",
+    "race": null,
+    "fuerza": 0,
+    "coste": 1,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-11",
+    "name": "Espada Radiante",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "arma",
+    "race": null,
+    "fuerza": 0,
+    "coste": 2,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "AHDX-12",
+    "name": "Clochafarmore",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "oro",
+    "race": null,
+    "fuerza": 0,
+    "coste": 0,
+    "isRework": false,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-394",
+    "name": "Guerreras Britanicas",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 1,
+    "coste": 1,
+    "isRework": true,
+    "reworkOf": null
+  },
+  {
+    "id": "ANIVERSARIO-HD-395",
+    "name": "Druida Sanador",
+    "edition": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+    "type": "aliado",
+    "race": "defensor",
+    "fuerza": 2,
+    "coste": 3,
+    "isRework": true,
+    "reworkOf": null
+  }
+]

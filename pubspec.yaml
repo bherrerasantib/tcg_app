@@ -62,10 +62,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/cards.json
+    - assets/cards/
     - assets/images/
     - assets/images/core/
     - assets/images/relatos_de_helenica_laberinto_del_minotauro/
+    - assets/images/relatos_de_hijos_de_daana_la_muerte_de_cuchulain/
 
   # assets:
   #   - images/a_dot_burr.jpeg

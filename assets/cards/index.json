@@ -1,0 +1,22 @@
+{
+  "editions": [
+    {
+      "id": "core",
+      "name": "Core",
+      "file": "assets/cards/core.json",
+      "enabled": true
+    },
+    {
+      "id": "relatos_de_helenica_laberinto_del_minotauro",
+      "name": "Relatos de Helénica: Laberinto del Minotauro",
+      "file": "assets/cards/relatos_de_helenica_laberinto_del_minotauro.json",
+      "enabled": true
+    },
+    {
+      "id": "relatos_de_hijos_de_daana_la_muerte_de_cuchulain",
+      "name": "Relatos de Hijo de Daana la Muerte de Cuchulain",
+      "file": "assets/cards/relatos_de_hijos_de_daana_la_muerte_de_cuchulain.json",
+      "enabled": true
+    }
+  ]
+}
